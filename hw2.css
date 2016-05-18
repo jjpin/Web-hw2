@@ -6,16 +6,15 @@ body{
 	letter-spacing: 1px;
 }
 
-/*right top nav style*/
-body header nav {
-	font-size: 12px;
+body > header > nav {
+	font-size: 12px; 
 	height: 52px;
 	width: 320px;
 	margin-top: 28px;
 	padding: 0;
 	float: right;
 }	
-body header nav ul{
+body > header > nav > ul{
 	box-sizing: border-box;
 	padding:0px;
 	margin:0px;
@@ -23,7 +22,7 @@ body header nav ul{
 	text-decoration: none;
 	line-height: 16px;
 }
-body header nav ul li{
+body > header > nav > ul > li{
 	display: inline-block;
 }
 body header nav ul li:nth-child(1),body header nav ul li:nth-child(2),body header nav ul li:nth-child(3),body header nav ul li:nth-child(4){
@@ -76,7 +75,7 @@ body header nav ul li a:hover{
 	content: url(http://artist.nccu.edu.tw/2012spring/images/nav_talks_on.gif);
 }
 
-/*節目總覽序言那塊style*/
+
 #introTable .dashed{
 	border-bottom: 0.5px dotted #339933;
 	padding:0;
@@ -105,7 +104,7 @@ body header nav ul li a:hover{
 #introTable tr td a:not(.green):hover{
 	color: #006699;
 }
-/*中間三塊圖片*/
+
 #middleImg{
 	display: flex;
 	justify-content:center;
@@ -132,7 +131,7 @@ body header nav ul li a:hover{
 	padding-left: 20px;
 	padding-right: 20px;
 }
-/*音樂會曲目*/
+
 body>section{
 	width: 71%;
 	float: left;
@@ -171,7 +170,7 @@ body section #concertTracks{
 #bgWhite2{
 	background-color: white;
 }
-/*音樂會演出單位介紹*/
+
 #a1{
 	border-bottom: 1px dotted orange;
 	display: flex;
@@ -210,7 +209,7 @@ article p:not(.headline){
 	line-height: 1.7;
 }
 
-/*參加音樂會觀眾注意事項*/
+
 body>aside{
 	width: 27%;
 	float: right;
@@ -242,7 +241,7 @@ body>aside>table{
 	line-height: 1.7;
 }
 
-/*footer*/
+
 footer{
 	line-height: 1.7;
 	font-size: 0.7em;
